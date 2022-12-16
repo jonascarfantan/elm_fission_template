@@ -1,8 +1,8 @@
-import './style.css'
-import javascriptLogo from './public/assets/images/javascript.svg'
-import viteLogo from './public/assets/images/vite.svg'
-import fissionLogo from './public/assets/images/fission.svg'
-import elmLogo from './public/assets/images/elm.svg'
+import '../style/style.css'
+import javascriptLogo from '../public/assets/images/javascript.svg'
+import viteLogo from '../public/assets/images/vite.svg'
+import fissionLogo from '../public/assets/images/fission.svg'
+import elmLogo from '../public/assets/images/elm.svg'
 import { setupCounter } from './counter.js'
 
 document.querySelector('#app').innerHTML = `
